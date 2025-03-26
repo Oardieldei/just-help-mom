@@ -1,0 +1,6 @@
+.calendar__wrapper {
+	min-width: 1200px;
+	margin: 0 auto;
+	border: black 1px solid;
+	display: flex;
+}
