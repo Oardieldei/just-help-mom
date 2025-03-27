@@ -4,9 +4,8 @@
 }
 
 .calendar__wrapper {
-	min-width: 1200px;
+	width: 100%;
 	margin: 0 auto;
-	border: black 1px solid;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -14,8 +13,7 @@
 
 .calendar__days-names {
 	display: flex;
-	gap: 20px;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .calendar__days-name_day {
@@ -27,8 +25,8 @@
 
 .calendar__dates {
 	display: flex;
-	gap: 20px;
-	justify-content: start;
+	gap: 20px 0;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
