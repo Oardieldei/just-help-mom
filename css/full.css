@@ -1,6 +1,6 @@
 .body {
-	background: url('../img/theme/bg-top.jpg') top center no-repeat,
-	url('../img/theme/bg-bottom.jpg') bottom center no-repeat;
+	background: url('../img/bg-top.jpg') top center no-repeat,
+	url('../img/bg-bottom.jpg') bottom center no-repeat;
 	background-size: 100% auto, 100% auto;
 }
 

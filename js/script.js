@@ -58,5 +58,3 @@ const createCalendar = () => {
 }
 
 createCalendar()
-
-console.log(getNumberOfFisrtDay(), getNumberOfLastDay())
