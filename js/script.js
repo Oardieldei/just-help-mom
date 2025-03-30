@@ -28,9 +28,22 @@ const createEmptyCellForDay = () => {
 const createCellForDay = (dateNum) => {
 	const newCell = document.createElement('div')
 	newCell.classList.add('calendar__dates_cell')
-	newCell.innerText = dateNum
 	newCell.id = `day${dateNum}`
 	calendarDates.append(newCell)
+
+	const newCellInfo = document.createElement('div')
+	newCellInfo.classList.add('calendar__dates_cell__info')
+	newCell.append(newCellInfo)
+	newCellInfo.innerText = dateNum
+
+	const newCellCard = document.createElement('div')
+	newCellCard.classList.add('calendar__dates_cell__card')
+	newCell.append(newCellCard)
+
+	const newCellCardImage = document.createElement('img')
+	newCellCardImage.classList.add('calendar__dates_cell__card_image')
+	newCellCardImage.src = '../img/cards/' + dataObjectToUse.cards[dateNum - 1].image
+	newCell.append(newCellCardImage)
 }
 
 const createEmptyCellsBefore = () => {

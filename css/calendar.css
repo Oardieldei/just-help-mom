@@ -34,6 +34,8 @@
 	width: var(--day-size-w);
 	height: var(--day-size-h);
 	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
 }
 
 .calendar__dates_cell_empty {
